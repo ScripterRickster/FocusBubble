@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins"
+}
+.left {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 25px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.right {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 25px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.mainfc {
+    width:1000px;
+    height:450px;
+    text-align: center;
+    font-size: 60px;
+    background-color:rgb(222, 222, 222);
+    border: 1px solid rgb(222,222,222);
+    border-radius: 15px;
+  }
+
+.arrow:hover {
+    opacity:0.5;
+}
+
+.headerfc {
+    font-family: "Poppins";
+    font-size:64px;
+    font-weight: 600;
+    color:#3CC8EA;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+.inputfield {
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border: 2px solid #3CC8EA;
+    padding: 5px;
+}
+.studying {
+    width: 315px;
+    height: 50px;
+    font-size: 25px;
+    background-color: white;
+    outline: none;
+    border: 2px solid #3CC8EA;
+    color: #3CC8EA;
+    transition: 0.3s ease;
+}
+.studying:hover {
+    color: white;
+    background-color: #3CC8EA;
+    border: 2px solid #3CC8EA;
+}
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 70px;
+    color:#3CC8EA;
+}
+
+.remove {
+    width: 315px;
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border: 2px solid #3CC8EA;
+    color: #3CC8EA;
+    transition: 0.3s ease;
+    margin: 30px;
+    font-size: 25px;
+}
+.remove:hover {
+    color: white;
+    background-color: #3CC8EA;
+    border: 2px solid #3CC8EA;
+}
+
+
+.backbuttonflash {
+    border: 3px solid #3CC8EA;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.backbuttonflash:hover {
+    background-color: #3CC8EA;
+}
