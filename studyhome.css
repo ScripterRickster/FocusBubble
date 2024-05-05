@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";  
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0;
+    color: #3CC8EA;
+    font-size: 40px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid #3CC8EA;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.card:hover {
+    box-shadow: 10px 10px;
+}
+
+img {
+    height: 150px;
+}
+
+.flashcards {
+    width: 200px;
+    height: 50px;
+    background-color:#3CC8EA; 
+    border-radius: 20px;
+    outline:none;
+}
+
+.todolist {
+    width: 200px;
+    height: 50px;
+    background-color: #3CC8EA;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.bottombtn {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.bottombtn:hover {
+    border: 2px solid #3CC8EA;
+    background-color: white;
+    color: #3CC8EA;
+}
+
+
+
+.Note-Taking {
+    font-family: "Poppins";
+    width: 200px;
+    height:50px;
+    background-color: #3CC8EA;
+    border-radius: 20px;
+    outline: none;
+    
+}
