@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying</title>
+    <link rel="stylesheet" href="notetake.css">
+    <script src="notetake.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <button class = "backnotetake"><</button>
+        <script type = "text/javascript">
+            document.querySelector(".backnotetake").onclick = function() {
+                location.href = "studyhome.html";
+            };
+        </script>
+        <input type="file" id="fileInput" accept=".txt" style="display: none;" />
+        <h1 class="title">Notetaking</h1>
+        <br>
+        <div class="sections">
+            <div class="section">
+                <div class="titletxt"></div>
+                <div class="bodytxt"></div>
+            </div>
+        </div>
+        <textarea id="ntxtbox" name="ntxtbox" class="inputfield"></textarea>
+        <br>
+        <button onclick="document.getElementById('fileInput').click()" id="upload" class="btn">Upload Your Note(s)</button>
+        <button id="save" class="btn">Save Your Note(s)</button>
+        
+    
+    </div>
+</body>
+</html>
+
