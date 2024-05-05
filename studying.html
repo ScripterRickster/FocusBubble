@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying</title>
+    <link rel="stylesheet" href="studying.css">
+    <script src="studying.js" defer></script>
+</head>
+<body>
+    <button class = "backbuttonflash"><</button>
+    <script type = "text/javascript">
+        document.querySelector(".backbuttonflash").onclick = function() {
+            location.href = "studyhome.html";
+        };
+    </script>    
+    <h1 class="title">Focus Bubble | Flashcards</h1>
+    <h1 class="question"></h1>
+    <div class="choices"></div>
+    <label for="q">Insert your question:</label>
+    <input type="text" id="q" name="q" class="inputfield"><br><br>
+    <label for="a">Insert your answer:</label>
+    <input type="text" id="a" name="a" class="inputfield"><br><br>
+    <button class = "studying" id="submitButton">Submit</button>
+    <div class = "flashcards">
+        <div class = "headerfc"></div>
+    </div>
+    
+    <div class="container">
+        <i class = "arrow left"></i>
+        <button class = "mainfc"></button>
+        <i class = "arrow right"></i>
+        
+    </div>
+    <button class = "remove">Remove</button>
+
+</body>
+</html>
