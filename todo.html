@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <button class = "backnotetodo"><</button>
+    <script type = "text/javascript">
+        document.querySelector(".backnotetodo").onclick = function() {
+            location.href = "studyhome.html";
+        };
+    </script>
+    <div class="title">To-Do List</div>
+    <div class="inputs">
+        <input type="text" placeholder="Add item" class="inp">
+        <div class="submit" onclick="submit()">></div>
+        <div class="export" onclick="exp()">Export List</div>
+    </div>
+    
+    <div class="items"></div>
+</body>
+</html>
